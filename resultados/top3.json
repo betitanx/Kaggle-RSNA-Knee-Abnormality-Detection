@@ -1,0 +1,72 @@
+{
+  "criterio": "Score público decrescente; empate ordenado pela primeira confirmação cronológica. E207 e E208 também empataram em 0,936 posteriormente.",
+  "data_corte_resultados": "2026-09-23",
+  "solucoes": [
+    {
+      "ordem_editorial": 1,
+      "id": "E74",
+      "titulo": "DINOsaur V4.9",
+      "score_publico": 0.936,
+      "data_confirmacao": "2026-08-29",
+      "versao_kaggle_registrada": "345735626",
+      "notebook": "notebooks/01_e74_dinosaur_v49.ipynb",
+      "snapshot_fonte": "kaggle_e74_dinosaur_v49_reference.ipynb",
+      "celulas_codigo": 4,
+      "sha256_celulas_codigo": [
+        "4a8668a45c513fc1063ad7e0996f4117789d1d74a0ae57b61e2b7e0889b4d97f",
+        "56668d94236de6f36bb187375638f745b4ecf24d3def8dddeb198edf65db808d",
+        "01e7067e04251a38ef8d7065f7d7b47336beaa320738d3402d69de227a01c11e",
+        "2e6dafc271cbbd77fff5e4c8157e743e1e68d67ace21caf166e489cf63fe8425"
+      ],
+      "sha256_notebook": "0872f5179d60d3baf1e40fb7f81ae06ec0dfee3dac4efa4325196810e96cad91",
+      "diagnostico_local": null,
+      "diagnostico_independente_da_selecao": null,
+      "rerun_gpu_na_curadoria": false
+    },
+    {
+      "ordem_editorial": 2,
+      "id": "E109",
+      "titulo": "Transformer adaptativo",
+      "score_publico": 0.936,
+      "data_confirmacao": "2026-08-31",
+      "versao_kaggle_registrada": "346147820",
+      "notebook": "notebooks/02_e109_transformer_adaptativo.ipynb",
+      "snapshot_fonte": "kaggle_e109_e74_transformer_disagreement_submission.ipynb",
+      "celulas_codigo": 5,
+      "sha256_celulas_codigo": [
+        "4a8668a45c513fc1063ad7e0996f4117789d1d74a0ae57b61e2b7e0889b4d97f",
+        "56668d94236de6f36bb187375638f745b4ecf24d3def8dddeb198edf65db808d",
+        "01e7067e04251a38ef8d7065f7d7b47336beaa320738d3402d69de227a01c11e",
+        "2e6dafc271cbbd77fff5e4c8157e743e1e68d67ace21caf166e489cf63fe8425",
+        "fa0cf12c6a8619f1fe16acc214cb61b1252c57893a6ce6a815069e8223240f31"
+      ],
+      "sha256_notebook": "afd43b63d8ab222d99f892e8ee13adf668588f86598aac4ba1a29dfb26cf4648",
+      "diagnostico_local": 0.9612756846163896,
+      "diagnostico_independente_da_selecao": false,
+      "rerun_gpu_na_curadoria": false
+    },
+    {
+      "ordem_editorial": 3,
+      "id": "E130",
+      "titulo": "Margem majoritária",
+      "score_publico": 0.936,
+      "data_confirmacao": "2026-09-02",
+      "versao_kaggle_registrada": "346774795",
+      "notebook": "notebooks/03_e130_margem_majoritaria.ipynb",
+      "snapshot_fonte": "kaggle_e130_e74_margin_majority_submission.ipynb",
+      "celulas_codigo": 6,
+      "sha256_celulas_codigo": [
+        "4a8668a45c513fc1063ad7e0996f4117789d1d74a0ae57b61e2b7e0889b4d97f",
+        "56668d94236de6f36bb187375638f745b4ecf24d3def8dddeb198edf65db808d",
+        "01e7067e04251a38ef8d7065f7d7b47336beaa320738d3402d69de227a01c11e",
+        "2e6dafc271cbbd77fff5e4c8157e743e1e68d67ace21caf166e489cf63fe8425",
+        "860d42bba140152b1ac4e147f5e469d9cc80f13e4ce9c64fc78f67c55f626938",
+        "515b3ee2e0351d73a42e7fff077cc9a89ff1d00a5ade5ba761253a88ba4f9dca"
+      ],
+      "sha256_notebook": "1004c1706443ed4f5f763c2884e07edb399284232d70d678b4e2304037821bf0",
+      "diagnostico_local": 0.9582783689594413,
+      "diagnostico_independente_da_selecao": false,
+      "rerun_gpu_na_curadoria": false
+    }
+  ]
+}

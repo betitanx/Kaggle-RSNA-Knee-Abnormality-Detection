@@ -21,4 +21,6 @@ MRNet, fastMRI+, KneeMRI e SKM-TEA foram examinados como possibilidades. Acesso,
 
 Curadoria, experimentação e engenharia da esteira: **Bernardo Braga Perobeli — [betitanx](https://github.com/betitanx)**, com assistência de agentes de IA. Créditos das arquiteturas, notebooks públicos, bibliotecas e checkpoints pertencem aos respectivos autores.
 
-Esta publicação não aplica uma licença única aos recursos externos. O repositório não inclui uma licença de código aberto; consulte o autor para reutilização do código próprio e as fontes originais para os demais recursos.
+Os três notebooks de inferência são derivados de código público Apache 2.0, com atribuição e alterações em [NOTICE](../notebooks/NOTICE.md) e uma cópia da [licença](../licencas/Apache-2.0.txt). A página pública [DINOsaur V4](https://www.kaggle.com/code/romantamrazov/rsna-knee-dinosaur-v4/notebook?scriptVersionId=347433881) e a referência [Bend the Knee to DinoV3](https://www.kaggle.com/code/mattiaangeli/bend-the-knee-to-dinov3-ensembled/notebook) exibem essa licença; ela cobre o código dessas fontes, não automaticamente os dados, modelos ou checkpoints anexados.
+
+Essa licença não foi estendida ao núcleo próprio em `src/`, aos textos ou aos datasets externos. Consulte o autor para reutilização do material próprio e as fontes originais para os demais recursos.

@@ -16,6 +16,18 @@ Esta é uma seleção dos recursos mais relevantes para portfólio. Os resultado
 
 ## Resultados selecionados
 
+### Top 3 soluções preservadas
+
+| Posição editorial | Solução | Score público | Diferencial | Notebook |
+|---|---|---:|---|---|
+| **1** | **E74** | **0,936** | Ensemble DINOsaur V4.9; primeiro máximo confirmado | [Inferência E74](notebooks/01_e74_dinosaur_v49.ipynb) |
+| **2** | **E109** | **0,936** | Peso adaptativo do Raptor segundo o desacordo com o Transformer | [Inferência E109](notebooks/02_e109_transformer_adaptativo.ipynb) |
+| **3** | **E130** | **0,936** | Agregação por margem majoritária entre três braços | [Inferência E130](notebooks/03_e130_margem_majoritaria.ipynb) |
+
+As três empataram no score público registrado. A ordem usa a data de confirmação: E74 em 29/08, E109 em 31/08 e E130 em 02/09/2026. E207 e E208 também empataram em 0,936 posteriormente. Esta seleção não afirma superioridade estatística entre soluções empatadas. Veja o [catálogo das soluções](docs/top3.md).
+
+### Outros marcos
+
 | Experimento | Abordagem | Score público |
 |---|---|---:|
 | E44 | Metadados DICOM e combinação em cadeia | 0,557 |
@@ -48,7 +60,7 @@ O aprendizado central foi que **melhorar um diagnóstico local não garante melh
 ```text
 docs/                 Metodologia, reprodução, referências e gráfico
 resultados/           Histórico agregado e resultados selecionados
-notebooks/            Demonstração executável com dados sintéticos
+notebooks/            Três notebooks reais de inferência: E74, E109 e E130
 src/rsna_knee/        Núcleo selecionado de validação, fusão e submissões
 tests/                Testes dos módulos selecionados
 scripts/              Regeneração do gráfico
@@ -63,17 +75,17 @@ Requer Python 3.11 ou superior. O núcleo e os exemplos usam CPU e não precisam
 python -m pip install -e ".[dev,visualizacao,notebooks]"
 python -m pytest
 python scripts/gerar_progresso.py
-jupyter notebook notebooks/01_validacao_e_fusao.ipynb
 ```
 
-O notebook utiliza exclusivamente dados sintéticos para demonstrar divisão por grupo, avaliação e validação de submissão. **Não reproduz o score 0,936.** A reprodução da inferência E74 depende de dados, checkpoints e ambiente Kaggle externos: veja o [guia de reprodução](docs/reproducao.md).
+Os notebooks reais precisam de ambiente Kaggle, acelerador e inputs externos. Eles não fazem parte dos testes locais em CPU. Para abrir o código localmente, use `jupyter notebook notebooks/01_e74_dinosaur_v49.ipynb`; para executá-lo, siga o [guia de reprodução](docs/reproducao.md).
 
 ## Recursos
 
 - [Diário resumido](lab.md)
+- [Top 3 soluções e critério de ordenação](docs/top3.md)
 - [Metodologia e limitações](docs/metodologia.md)
 - [Reprodução e proveniência do E74](docs/reproducao.md)
 - [Fontes e créditos](docs/referencias.md)
 - [Histórico agregado usado no gráfico](resultados/historico.json)
 
-Dados de exames, laudos, identificadores de pacientes, checkpoints, credenciais e logs operacionais não fazem parte desta publicação. O código é apresentado como material de pesquisa e portfólio, sem validação para uso clínico.
+Dados de exames, laudos, identificadores de pacientes, checkpoints, credenciais e logs operacionais não fazem parte desta publicação. Os notebooks derivados preservam os créditos e a licença Apache 2.0 do código público de origem; consulte o [aviso de atribuição](notebooks/NOTICE.md). O código é apresentado como material de pesquisa e portfólio, sem validação para uso clínico.

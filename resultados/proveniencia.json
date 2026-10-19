@@ -1,7 +1,7 @@
 {
   "data_curadoria": "2026-10-19",
   "data_corte_resultados": "2026-09-23",
-  "criterio": "Núcleo próprio independente de GPU e dados privados; resultados agregados e referências públicas.",
+  "criterio": "Núcleo próprio de validação/fusão e três snapshots reais de inferência; metadados agregados e referências públicas.",
   "arquivos_selecionados": [
     {
       "arquivo": "src/rsna_knee/__init__.py",
@@ -28,10 +28,6 @@
       "sha256": "d5644e5a966e2dc889d4ee2c512249840388511ec7bfc376501b2edcbd98952f"
     },
     {
-      "arquivo": "src/rsna_knee/pipeline_policy.py",
-      "sha256": "e8dfb3d8a04e9ca9956e39fed0aba4705640e03efc49d2bf565e4e7c5e16b463"
-    },
-    {
       "arquivo": "tests/test_metrics.py",
       "sha256": "6d99f217e5e238b093286e60c77a619d258754f1ba4df2f5b80ca65eb97b4123"
     },
@@ -42,23 +38,26 @@
     {
       "arquivo": "tests/test_submission.py",
       "sha256": "f5ae215ccd33e0fcac15e4806c275f00eb416574c1669f94397ca4238692f82d"
-    },
-    {
-      "arquivo": "tests/test_pipeline_policy.py",
-      "sha256": "55c43792a3bd81c2df76b3c4a29f32a2d958309ca7a74102ef0f00046d96d1d4"
-    },
-    {
-      "arquivo": "configs/pipeline_e74_first.json",
-      "sha256": "e2556f0c0aac3593b59c28d8143edbe16bbffdb01d93f2731b3c6a9c6c98b35d"
     }
   ],
   "referencia_e74": {
     "versao_kaggle": "345735626",
     "hash_fonte_registrado": "f4240d0a4ca70e6a63ee4bd329927afd5bec19987d3a3cee8590900c380c7850",
-    "codigo_integral_incluido": false
+    "codigo_integral_incluido": true
   },
   "fontes_resultados": [
     "Diário original, estado consolidado e H284",
     "Snapshot temporal com 205 IDs"
-  ]
+  ],
+  "notebooks_inferencia": "resultados/top3.json",
+  "limpeza_portfolio": {
+    "retirados": [
+      "notebooks/01_validacao_e_fusao.ipynb",
+      "configs/pipeline_e74_first.json",
+      "src/rsna_knee/pipeline_policy.py",
+      "tests/test_pipeline_policy.py"
+    ],
+    "motivo": "Demonstração sintética substituída por inferência real; política operacional dependia de CLI e registro de exposição não distribuídos.",
+    "recuperacao": "Histórico Git do primeiro commit; originais de pesquisa preservados fora deste repositório."
+  }
 }

@@ -25,7 +25,7 @@ Laudos possibilitam supervisão fraca, mas rótulos extraídos deles não substi
 
 ## Critério de promoção
 
-O estado final da política exigia OOF ≥0,920, independência do treino e da seleção, rastreabilidade e controles de regressão. O módulo `pipeline_policy.py` preserva essa lógica de decisão do projeto; suas declarações precisam ser sustentadas por proveniência real. Ele não consegue provar sozinho que os folds ou as alegações de independência são verdadeiros.
+O estado final da política exigia OOF ≥0,920, independência do treino e da seleção, rastreabilidade e controles de regressão. Essas declarações precisam ser sustentadas por proveniência real; uma configuração ou um manifesto, isoladamente, não prova a independência. A configuração operacional da esteira encerrada foi retirada da seleção de portfólio, e o critério histórico fica documentado aqui.
 
 Os 58 estudos expostos impediam uma nova aprovação independente. Cinco sondagens públicas foram feitas por autorização explícita como experimentos exploratórios; todas ficaram abaixo de E74. Essa exceção não transformou os diagnósticos locais em OOF independente.
 
