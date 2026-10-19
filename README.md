@@ -1,5 +1,7 @@
 # Kaggle RSNA Knee Abnormality Detection
 
+[![Banner oficial da competição RSNA Knee Abnormality Detection](docs/imagens/banner-competicao.png)](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection)
+
 Um laboratório de pesquisa aplicada para classificação de anormalidades em ressonâncias magnéticas do joelho: hipóteses, experimentos, validação e aprendizado com resultados que nem sempre melhoraram.
 
 **Melhor score público registrado: 0,936 ROC-AUC macro · 205 candidatos/variações registrados · ≈187 horas estimadas de execução.**
