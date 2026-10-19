@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaggle-rsna-knee-portfolio"
+version = "0.1.0"
+description = "Portfólio de pesquisa aplicada: classificação de anormalidades em MRI de joelho"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scikit-learn>=1.3", "tzdata>=2024.1; platform_system == 'Windows'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+visualizacao = ["matplotlib>=3.8"]
+notebooks = ["jupyter>=1", "nbclient>=0.10", "nbformat>=5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

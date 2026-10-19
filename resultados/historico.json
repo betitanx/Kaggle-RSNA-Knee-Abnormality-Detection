@@ -1,0 +1,1653 @@
+{
+  "data_corte": "2026-09-23",
+  "total_candidatos": 205,
+  "tempo_estimado_horas": 187,
+  "melhor_publico": {
+    "id": "E74",
+    "score": 0.936,
+    "data": "2026-08-29"
+  },
+  "nota": "Diagnósticos locais históricos usam protocolos distintos; não são todos OOF independente. IDs são de experimentos, não pacientes.",
+  "candidatos": [
+    {
+      "id": "B0-text",
+      "data_criacao": "2026-08-07",
+      "diagnostico_local": 0.5482022607,
+      "data_local": "2026-08-07",
+      "score_publico": 0.5,
+      "data_publico": "2026-08-07"
+    },
+    {
+      "id": "B0-text-char-ensemble",
+      "data_criacao": "2026-08-07",
+      "diagnostico_local": 0.5474119168,
+      "data_local": "2026-08-07",
+      "score_publico": 0.5,
+      "data_publico": "2026-08-07"
+    },
+    {
+      "id": "B0-dicom-chain-blend-c15",
+      "data_criacao": "2026-08-08",
+      "diagnostico_local": null,
+      "data_local": "2026-08-08",
+      "score_publico": null,
+      "data_publico": "2026-08-08"
+    },
+    {
+      "id": "B0-dicom-metadata-weak-labels",
+      "data_criacao": "2026-08-08",
+      "diagnostico_local": null,
+      "data_local": "2026-08-08",
+      "score_publico": 0.556,
+      "data_publico": "2026-08-08"
+    },
+    {
+      "id": "B0-series-metadata",
+      "data_criacao": "2026-08-08",
+      "diagnostico_local": 0.623876939,
+      "data_local": "2026-08-08",
+      "score_publico": 0.515,
+      "data_publico": "2026-08-08"
+    },
+    {
+      "id": "B0-series-metadata-c10",
+      "data_criacao": "2026-08-08",
+      "diagnostico_local": 0.6274842172,
+      "data_local": "2026-08-08",
+      "score_publico": 0.509,
+      "data_publico": "2026-08-08"
+    },
+    {
+      "id": "B0-series-metadata-chain-c10",
+      "data_criacao": "2026-08-08",
+      "diagnostico_local": 0.676024,
+      "data_local": "2026-08-08",
+      "score_publico": 0.527,
+      "data_publico": "2026-08-08"
+    },
+    {
+      "id": "E44-DICOM-chain-blend-c15",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": null,
+      "data_local": "2026-08-09",
+      "score_publico": 0.557,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E45-DICOM-chain-crossfit",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": 0.571515297,
+      "data_local": "2026-08-09",
+      "score_publico": null,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E46-DICOM-chain-rank-shrinkage",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": 0.5808102015,
+      "data_local": "2026-08-09",
+      "score_publico": null,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E47-DICOM-chain-confidence-gate",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": 0.5807631133,
+      "data_local": "2026-08-09",
+      "score_publico": null,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E48-pixel-statistics",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": 0.6114473239,
+      "data_local": "2026-08-09",
+      "score_publico": 0.595,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E49-pixel-spatial",
+      "data_criacao": "2026-08-09",
+      "diagnostico_local": null,
+      "data_local": "2026-08-09",
+      "score_publico": null,
+      "data_publico": "2026-08-09"
+    },
+    {
+      "id": "E49-pixel-spatial-cached",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.6132174743,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E50-cache-profile",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": null,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E51-spatial-pattern",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.614012357,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E52-nested-E49-E51",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.6136588115,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E53-soft-pixel-regression",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": null,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E54-minimal-probe-path-resolution",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": null,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E55-soft-pixel-regression",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.6263035142,
+      "data_local": "2026-08-11",
+      "score_publico": 0.627,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E56-gold-calibrated-soft-pixel",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.6142533288,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E57-sequence-quality-soft-pixel",
+      "data_criacao": "2026-08-11",
+      "diagnostico_local": 0.6307810698,
+      "data_local": "2026-08-11",
+      "score_publico": null,
+      "data_publico": "2026-08-11"
+    },
+    {
+      "id": "E58-texture-soft-pixel",
+      "data_criacao": "2026-08-12",
+      "diagnostico_local": 0.6324793891,
+      "data_local": "2026-08-12",
+      "score_publico": null,
+      "data_publico": "2026-08-12"
+    },
+    {
+      "id": "E59-weak-multiplane-cnn",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.5076602123,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E60-masked-multiplane-ssl",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6312198835,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E61-nested-view-ssl-blend",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6302602944,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E62-spatial-pool-ssl",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6293057638,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E63-weak-ssl-head",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6303634388,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E64-weak-ridge-per-label",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6146736022,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E65-label-wise-ssl-blend",
+      "data_criacao": "2026-08-14",
+      "diagnostico_local": 0.6375427708,
+      "data_local": "2026-08-14",
+      "score_publico": null,
+      "data_publico": "2026-08-14"
+    },
+    {
+      "id": "E66-LFM2.5-VL-3B-frozen-features",
+      "data_criacao": "2026-08-20",
+      "diagnostico_local": 0.6220939276,
+      "data_local": "2026-08-20",
+      "score_publico": null,
+      "data_publico": "2026-08-20"
+    },
+    {
+      "id": "E67-stable-label-blend",
+      "data_criacao": "2026-08-21",
+      "diagnostico_local": 0.6264732578,
+      "data_local": "2026-08-21",
+      "score_publico": null,
+      "data_publico": "2026-08-21"
+    },
+    {
+      "id": "E68-multiseed-ssl-ensemble",
+      "data_criacao": "2026-08-21",
+      "diagnostico_local": 0.6276754413,
+      "data_local": "2026-08-21",
+      "score_publico": null,
+      "data_publico": "2026-08-21"
+    },
+    {
+      "id": "E69-quality-selected-ssl",
+      "data_criacao": "2026-08-22",
+      "diagnostico_local": 0.620020537,
+      "data_local": "2026-08-22",
+      "score_publico": null,
+      "data_publico": "2026-08-22"
+    },
+    {
+      "id": "E70-texture-ssl-residual",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": null,
+      "data_publico": "2026-08-28"
+    },
+    {
+      "id": "E71-artifact-persistence-smoke",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": null,
+      "data_publico": "2026-08-28"
+    },
+    {
+      "id": "E72-multiseries-pooling",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": 0.6304411194,
+      "data_local": "2026-08-28",
+      "score_publico": null,
+      "data_publico": "2026-08-28"
+    },
+    {
+      "id": "E73-public-dinov3-radimagenet-ensemble",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": null,
+      "data_publico": "2026-08-28"
+    },
+    {
+      "id": "E74-public-dinov3-coatnet-v49",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": 0.936,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E75-public-dinov3-v13",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": 0.935,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E76-public-rsna-baseline-0936",
+      "data_criacao": "2026-08-28",
+      "diagnostico_local": null,
+      "data_local": "2026-08-28",
+      "score_publico": null,
+      "data_publico": "2026-08-28"
+    },
+    {
+      "id": "E77-public-sakh-master-ensemble",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E78-public-dinosaurs-c01-dual-fusion",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E79-public-rta-hmil-dinov2-hierarchical",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E80-dinov2-dual-llm-distillation",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E81-plane-aware-25d-mil",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E81-plane-aware-25d-mil-rerun",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E82-report-soft-plane-mil",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E83-physical-slices",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E85-report-consensus",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": 0.6264647006,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E86-target-wise-oof-fusion",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E87-weak-student",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E89-lexical-student",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": 0.6308016235,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E90-targetwise-student",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": 0.6305684559,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E91-radimagenet-pseudo",
+      "data_criacao": "2026-08-29",
+      "diagnostico_local": null,
+      "data_local": "2026-08-29",
+      "score_publico": null,
+      "data_publico": "2026-08-29"
+    },
+    {
+      "id": "E100-E74-global-Raptor-weight-030",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9223775664,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E100-pairwise-graph-imputation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6994,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E101-E74-logit-Raptor-070-030",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9228306473,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E101-hybrid-pairwise-imputation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6828,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E102-clinical-report-teacher",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E102-E74-disagreement-logit-Raptor",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9233557781,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E103-E74-confidence-logit-Raptor",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9243459299,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E103-impression-section-teacher",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6447978018,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E104-E74-logit-committee",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.92413368,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E104-p100-cuda-fallback",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E105-E103-winsorized-logit",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9243459299,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E105-report-section-dedup",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.645633599,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E106-E74-confidence-deadzone-logit",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.925402695,
+      "data_local": "2026-08-30",
+      "score_publico": 0.929,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E106-graph-clinical",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E107-anatomical-relation-teacher",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6678860643,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E107-anatomical-relation-teacher-window-ablation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6678860643,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E107-E74-full-fusion-gold-benchmark",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9574425109,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E108-E74-full-fusion-disagreement-sweep",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9612756846,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E108-narrow-polarity-teacher",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6773814785,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E108-narrow-polarity-teacher-full-coverage",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6773814785,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E109-E74-transformer-disagreement",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9612756846,
+      "data_local": "2026-08-31",
+      "score_publico": 0.936,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E109-E74-transformer-disagreement-minus-0.20",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9612756846,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E109-expanded-clinical-relations",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7190086767,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E110-E74-mcl-residual",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9577259576,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E110-oa-abbreviation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7229856604,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E111-E74-raptor-stability-screen",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E111-meniscal-morphology-relations",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7222625164,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E112-E74-transformer-slope-extension",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E112-gold-char-corrector",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7445271693,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E113-classifier-chain-textual",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7130328285,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E113-E74-logit-fusion",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9658969354,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E114-nested-label-gate",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7373247713,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E115-linear-calibrators",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7406554835,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E116-cuda-mask-cpu-fallback",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E117-ascii-gold-char-corrector",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.751954284,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E118-ascii-gold-char-corrector-c003",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.7532240406,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E119-public-dinosour-v5.1",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E120-weakness-aware-multilingual-jackknife",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E121-language-aware-lexical-jackknife",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E93-E98-confidence-preserved",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E93-silence-imputation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E94-ranked-radimagenet-pseudo",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E95-ranked-radimagenet-labelscale",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.6263035142,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E96-E74-exact-reproduction",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E96-radimagenet-prior-calibrated",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E97-E74-independent-oof",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9200900504,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E97-radimagenet-labelwise-blend",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E98-E74-architecture-diversity",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9199865307,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E98-silence-labelwise",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E99-conditional-imputation",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": null,
+      "data_local": "2026-08-30",
+      "score_publico": null,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E99-E97-dual-Raptor-submission",
+      "data_criacao": "2026-08-30",
+      "diagnostico_local": 0.9200900504,
+      "data_local": "2026-08-30",
+      "score_publico": 0.929,
+      "data_publico": "2026-08-30"
+    },
+    {
+      "id": "E116",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9658969354,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E117-E74-robust-disagreement",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9724841007,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E118-E74-frozen-sqrt-disagreement",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": null,
+      "data_local": "2026-08-31",
+      "score_publico": 0.931,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E119-E74-parent-shrinkage-0.50",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9665224923,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E120-E74-logit-consensus-0.50",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9670263456,
+      "data_local": "2026-08-31",
+      "score_publico": 0.934,
+      "data_publico": "2026-09-23"
+    },
+    {
+      "id": "E121-E74-E113-E118-diversity-ablation",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9727181444,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E121-E74-E118-targetwise-logit",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9729283674,
+      "data_local": "2026-08-31",
+      "score_publico": 0.933,
+      "data_publico": "2026-09-23"
+    },
+    {
+      "id": "E122-E74-E118-global-weak-consensus",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9723845388,
+      "data_local": "2026-08-31",
+      "score_publico": 0.932,
+      "data_publico": "2026-09-23"
+    },
+    {
+      "id": "E123-E74-E118-stable-target-protection",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9725785829,
+      "data_local": "2026-08-31",
+      "score_publico": 0.931,
+      "data_publico": "2026-09-23"
+    },
+    {
+      "id": "E124-E74-E113-E118-robust-median",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": null,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E125-E74-E118-fracture-shrinkage",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9729258051,
+      "data_local": "2026-08-31",
+      "score_publico": 0.932,
+      "data_publico": "2026-09-23"
+    },
+    {
+      "id": "E126-E74-conservative-residual",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": 0.9608216529,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E127-E74-component-audit",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": null,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E128-E74-pairwise-majority",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": null,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E74-lineage-source-review",
+      "data_criacao": "2026-08-31",
+      "diagnostico_local": null,
+      "data_local": "2026-08-31",
+      "score_publico": null,
+      "data_publico": "2026-08-31"
+    },
+    {
+      "id": "E129-E74-margin-majority",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E130-E74-margin-majority-submission",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": 0.936,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E131-E74-logit-disagreement",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E132-E113-parent-shrinkage",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E133-E74-E117-anchor",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E134-E74-tie-break",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E135-E74-directional-gate",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E137-E74-directional-envelope",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E138-E137-minimum-directional-margin",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E139-E74-directional-envelope",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E140-E74-nested-targetwise-selector",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E141-E74-concordant-interpolation",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E142-E74-nested-convex-fusion",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E143-E74-top2-weight-average",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E144-E142-stability-aggregation",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E145-E142-fine-convex-grid",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E146-E74-polynomial-ridge-stack",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E147-E74-inner-stratified-selection",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E148-E74-reliability-rank-blend",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E149-E74-fixed-weight-sensitivity-diagnostic",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E150-E74-fast-aux-discovery",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E151-E74-directional-consensus-residual",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E152-E74-rank-median-consensus",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E152-E74-rank-median-consensus-test-like",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E153-E74-huberized-consensus",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E154-E74-clipped-envelope",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E155-E74-public-slot-protocol",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E156-E74-raptor-24-windows",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E157-E74-raptor-24-windows-test-like",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E158-E74-raptor-12-windows",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E159-E74-raptor-36-windows",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E160-E74-raptor-36-windows-test-like",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": 0.935,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E161-E74-raptor-48-windows",
+      "data_criacao": "2026-09-02",
+      "diagnostico_local": null,
+      "data_local": "2026-09-02",
+      "score_publico": null,
+      "data_publico": "2026-09-02"
+    },
+    {
+      "id": "E162-E74-raptor-primary-only",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E163-E162-single-device-radimagenet",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E164-E74-raptor-42-windows",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E164-E74-Raptor-42-windows-test-like",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E165-E74-symmetric-rank-mean",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E166-E74-symmetric-rank-mean-jackknife",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E167-multilingual-silence-imputation",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E168-E74-public-llm-labels",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E169-E74-public-weak-head",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E170-E74-pairwise-weak-head",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E171-public-dino-raptor-coatnet-scan",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E172-E74-rank-max",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E173-E74-metadata-dedup-audit",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E174-public-score-lead-0.938",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E175-noisy-teacher-e74-first",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E177-E74-public-weak-head-budget",
+      "data_criacao": "2026-09-03",
+      "diagnostico_local": null,
+      "data_local": "2026-09-03",
+      "score_publico": null,
+      "data_publico": "2026-09-03"
+    },
+    {
+      "id": "E178-E74-raptor-44-windows",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E179-E74-raptor-43-windows",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E180-E74-raptor-43-windows-runtime-controlled",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E181-E74-raptor-42-windows-runtime-controlled",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E182-E74-raptor-42-bounded-aux",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E183-E74-raptor-42-repro-audit",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E184-E74-raptor-temporal-consensus",
+      "data_criacao": "2026-09-05",
+      "diagnostico_local": null,
+      "data_local": "2026-09-05",
+      "score_publico": null,
+      "data_publico": "2026-09-05"
+    },
+    {
+      "id": "E185-E74-raptor-temporal-tri-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E186-E74-exact-reproduction",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E187-E74-raptor-weighted-temporal",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E188-E74-raptor-k36-only",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E189-E74-exact-reproduction",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E190-E74-raptor-trimmed-centers",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E191-E74-raptor-trimmed-centers-10-90",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E192-E74-weak-rank-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.8392838789,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E193-E74-probability-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.960940195,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E194-E74-raptor-weighted-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9495653952,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E195-E74-k42-probability-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9595351452,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E196-E74-transformer55-raptor45-probability-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9640445658,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E197-E74-transformer60-raptor40-probability-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9667144529,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E198-E74-transformer65-raptor35-probability-consensus",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9686067054,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E199-E74-rank-logit65-raptor35",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9682272882,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E200-E74-rank-geometric65-raptor35",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9682087452,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E201-E74-transformer70-raptor30-rank-space",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9698225379,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E202-E74-transformer75-raptor25-rank-space",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9711660061,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E203-E74-transformer80-raptor20-rank-space",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9715335201,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E204-E74-transformer85-raptor15-official-test",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": 0.928,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E204-E74-transformer85-raptor15-rank-space",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": 0.9727551786,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E205",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E206",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": null,
+      "data_publico": "2026-09-06"
+    },
+    {
+      "id": "E207",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": 0.936,
+      "data_publico": "2026-09-07"
+    },
+    {
+      "id": "E208",
+      "data_criacao": "2026-09-06",
+      "diagnostico_local": null,
+      "data_local": "2026-09-06",
+      "score_publico": 0.936,
+      "data_publico": "2026-09-07"
+    },
+    {
+      "id": "E209",
+      "data_criacao": "2026-09-07",
+      "diagnostico_local": null,
+      "data_local": "2026-09-07",
+      "score_publico": null,
+      "data_publico": "2026-09-07"
+    },
+    {
+      "id": "E210-A",
+      "data_criacao": "2026-09-17",
+      "diagnostico_local": null,
+      "data_local": "2026-09-17",
+      "score_publico": null,
+      "data_publico": "2026-09-17"
+    },
+    {
+      "id": "E211-controle",
+      "data_criacao": "2026-09-17",
+      "diagnostico_local": null,
+      "data_local": "2026-09-17",
+      "score_publico": null,
+      "data_publico": "2026-09-17"
+    }
+  ]
+}
